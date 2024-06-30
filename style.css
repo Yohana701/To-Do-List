@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: mediumpurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: greenyellow;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #7b68ee; /* Purple color for heading */
+  font-family: 'Arial', sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 2px solid #7b68ee; /* Purple border color for input field */
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #614dbd; 
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightskyblue; 
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+  background-color: #ff8c00; /* Darker yellow-orange color on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.completed span{
+  text-decoration: line-through;
+  color: #aaa; /* Light gray color for completed tasks */
+  font-style: italic;
+}
