@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    
     function addTask(taskText) {
         const taskItem = document.createElement('li');
         taskItem.innerHTML = `
